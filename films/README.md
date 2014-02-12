@@ -1,6 +1,6 @@
 ## Sample Film Database and Plugin
 
-A sample database of 1000 records of movies from the MySQL sample databases. 
+A sample database of 1000 records of movies from the MySQL sample databases for testing the system. 
 
 Each record contains: 
 
@@ -13,9 +13,18 @@ Each record contains:
 * cost - Cost
 * features - Additional features. 
 
+Cached fields are: title,year, duration, rate, length, cost, features. 
+
+
 
 ### Installation
 
-Copy all the files to the root of your website. 
-Go to Amdin panel, Activate "Film" plugin
+Copy the 'addins' folder to ROOT/addins
+Copy the 'data' folder to ROOT/data 
+
+Go to Admin panel, Activate "Film" plugin
+
+### Usage 
+
+
 
