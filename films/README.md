@@ -1,6 +1,8 @@
 ## Sample Film Database and Plugin
 
-A sample database of 1000 records of movies from the MySQL sample databases for testing the system. 
+A sample database of 1000 records of movies from the MySQL sample databases for testing the system backend.
+
+Film table can queried using normal methods to view the records.
 
 Each record contains: 
 
@@ -26,5 +28,13 @@ Go to Admin panel, Activate "Film" plugin
 
 ### Usage 
 
-
+    // return a 25 random films
+    $films = new Query('film');
+    $records = $films->getCache()->randomize()->top(25); 
+    foreach ($records as $record){
+      echo "Title: ".$record['title]."<br/>";
+      echo "Description: ".$record['description]."<br/>";
+      echo "Year: ".$record['year]."<br/>";
+      echo "<br/><br/>";
+    }
 
