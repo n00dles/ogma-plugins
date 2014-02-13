@@ -19,8 +19,8 @@ Cached fields are: title,year, duration, rate, length, cost, features.
 
 ### Installation
 
-Copy the 'addins' folder to ROOT/addins
-Copy the 'data' folder to ROOT/data 
+Copy the 'addins' folder to ROOT/addins  
+Copy the 'data' folder to ROOT/data   
 
 Go to Admin panel, Activate "Film" plugin
 
